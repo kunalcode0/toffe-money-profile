@@ -1,0 +1,79 @@
+.container{
+    background-color: #EEF2E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    
+
+}
+
+*{
+    margin: 0;  padding: 0;
+}
+
+.top-div{
+    margin-top: 2rem;
+}
+.profile-img{
+    background-color: #ffff;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    border: 2px solid #2A9D8F;
+}
+.User-name{
+    margin-top: .2rem;
+    font-size: 1rem;
+    word-wrap: break-word;
+    color:rgb(70, 70, 70);
+    
+    
+}
+.profile-name{
+    margin-top: .2rem;
+    font-size: 1.3rem;
+    word-wrap: break-word;
+    font-weight: bold;
+    overflow: hidden;
+}
+.account, .setting, .edit, .logout, .export{
+    background-color: #eafffd;
+    margin-top: .2rem;
+    border-radius: .4rem;
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    color: #2A9D8F;
+    font-weight: bold;
+    }
+
+    .account img{
+        height: 40px;
+    }
+    .edit img{
+        height: 40px;
+        margin-left: -2rem;
+    }
+    .export img{
+        height: 40px;
+    }
+    .setting img{
+        height: 40px;
+    }
+    .logout img{
+        height: 40px;
+        margin-left: -1rem;
+    }
+
+    @media screen and (max-width:560px) {
+        .container{
+            border-radius: 0px;
+            margin-top: 0;
+        }
+        
+    }
+
+
