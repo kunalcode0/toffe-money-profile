@@ -67,12 +67,22 @@
         height: 40px;
         margin-left: -1rem;
     }
+    .bottom-div{
+      display: grid;
+      grid: auto / auto auto;
+      gap: 1rem;
+    }
 
-    @media screen and (max-width:560px) {
+    @media screen and (max-width:580px) {
         .container{
             border-radius: 0px;
             margin-top: 0;
         }
+        .bottom-div{
+            display: flex;
+            flex-direction: column;
+            gap: .2rem;
+          }
         
     }
 
